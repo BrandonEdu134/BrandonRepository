@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
 
 export default function Home() {
 	return (
 		<>
-			<div>
-				<Navbar />
-			</div>
+			<Navbar />
 			<Hero />
+			<Projects />
 			<p>Hola mundo!</p>;
 		</>
 	);
