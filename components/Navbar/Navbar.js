@@ -1,4 +1,4 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Link } from "@chakra-ui/react";
 
 const Navbar = () => (
 	<div>
@@ -10,12 +10,16 @@ const Navbar = () => (
 			fontFamily="'Noto Sans JP', sans-serif"
 			fontSize="3vh"
 		>
-			<Box m="1" as="button" p="4" textColor="#c4c4c4">
-				Inicio
-			</Box>
-			<Box m="1" as="button" p="4" textColor="#c4c4c4">
-				Trabajos
-			</Box>
+			<Link href="/">
+				<Box m="1" as="button" p="4" textColor="#c4c4c4">
+					Inicio
+				</Box>
+			</Link>
+			<Link href="/Trabajos">
+				<Box m="1" as="button" p="4" textColor="#c4c4c4">
+					Trabajos
+				</Box>
+			</Link>
 			<Box m="1" as="button" p="4" textColor="#c4c4c4">
 				Contacto
 			</Box>

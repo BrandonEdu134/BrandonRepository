@@ -5,7 +5,7 @@ const Hero = () => (
 		<Flex
 			bgGradient="linear(rgb(27, 27, 27) 15%, #141E30 45%, #243B55 70%)"
 			w="100%"
-			h="600px"
+			h="500px"
 			flexDirection="column"
 			justify="center"
 			fontFamily="'Noto Sans JP', sans-serif"
