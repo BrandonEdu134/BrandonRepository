@@ -8,22 +8,24 @@ const Navbar = () => (
 			w="100%"
 			justify="flex-end"
 			fontFamily="'Noto Sans JP', sans-serif"
-			fontSize="3vh"
+			fontSize="2.4vh"
 			zIndex="1"
 		>
 			<Link href="/">
-				<Box m="1" as="button" p="4" textColor="#c4c4c4">
-					Inicio
+				<Box m="1" as="button" p="4" textColor="#c4c4c4" _hover={{ fontSize: "16px" }}>
+					INICIO
 				</Box>
 			</Link>
 			<Link href="/Trabajos">
-				<Box m="1" as="button" p="4" textColor="#c4c4c4">
-					Trabajos
+				<Box m="1" as="button" p="4" textColor="#c4c4c4" _hover={{ fontSize: "16px" }}>
+					TRABAJOS
 				</Box>
 			</Link>
-			<Box m="1" as="button" p="4" textColor="#c4c4c4">
-				Contacto
-			</Box>
+			<Link href="/">
+				<Box m="1" as="button" p="4" textColor="#c4c4c4" _hover={{ fontSize: "16px" }}>
+					CONTACTO
+				</Box>
+			</Link>
 		</Flex>
 	</div>
 );
