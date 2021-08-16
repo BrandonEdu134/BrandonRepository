@@ -31,7 +31,13 @@ const Projects = () => {
 										h="400px"
 										boxShadow="dark-lg"
 										bgColor="#00b09b"
-										_hover={{ bgColor: "#243B55" }}
+										borderRadius="4px"
+										_hover={{
+											bgColor: "#243B55",
+											color: "white",
+											border: "2px",
+											borderColor: "#f5af19",
+										}}
 									>
 										<LinkOverlay href={item.url} target="_blank">
 											<Image
@@ -40,6 +46,7 @@ const Projects = () => {
 												boxSize="320px"
 												w={["300px", "350px", "400px", "400px"]}
 												objectFit="cover"
+												borderRadius="4px"
 											/>
 											<Heading>
 												<Text

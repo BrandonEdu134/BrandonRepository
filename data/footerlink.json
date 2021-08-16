@@ -1,0 +1,19 @@
+{
+	"networks": [
+		{
+			"name": "Facebook",
+			"icons": "/icons/facebook-f.svg",
+			"url": "https://www.facebook.com/Brand.lml"
+		},
+		{
+			"name": "Twitter",
+			"icons": "/icons/twitter.svg",
+			"url": "https://twitter.com/BrandiniTZ"
+		},
+		{
+			"name": "GitHub",
+			"icons": "/icons/github.svg",
+			"url": "https://github.com/BrandonEdu134"
+		}
+	]
+}

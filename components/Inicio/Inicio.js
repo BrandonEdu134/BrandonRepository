@@ -12,7 +12,7 @@ const Inicio = () => (
 		>
 			<Divider orientation="vertical" />
 			<Box bg="#1c2f44" w="70%" mb="40px">
-				<Box h="40px" fontSize="1.7vw" ml="6">
+				<Box h="40px" fontSize={["5vw", "3vw", "1.7vw", "1.7vw"]} ml="6">
 					¿Qué son las Ciencias Computacionales?
 				</Box>
 				<Box h="auto" w="85%" m="auto">
@@ -36,7 +36,7 @@ const Inicio = () => (
 						sistemas operativos entre otros.
 					</Text>
 				</Box>
-				<Box h="40px" fontSize="1.7vw" ml="6">
+				<Box h="40px" fontSize={["4vw", "3vw", "1.7vw", "1.7vw"]} ml="6">
 					¿Qué hace un licenciado en Ciencias Computacionales?
 				</Box>
 				<Box h="auto" w="85%" m="auto">
